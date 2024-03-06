@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sneakers</title>
+</head>
+<body>
+    <div class="sneakers">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                       <div class="header-content">
+                        <button id="mobile-icon" onclick="mobile()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></i></button>
+                        <div class="img">
+                            <img src="images/logo.svg" alt="">
+                        </div>
+                        <ul id="list">
+                            <li> <a href="index.html">Collections</a></li>
+                            <li> <a href="index.html">Men</a></li>
+                            <li> <a href="index.html">Women</a></li>
+                            <li> <a href="index.html">About</a></li>
+                            <li> <a href="index.html">Contact</a></li>
+                        </ul>
+                       </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="header-content2">
+                           <button id="cart-button">
+                            <div class="cart">
+                              <div id="count">
+                              </div>
+                                <a href="#"><img src="images/icon-cart.svg" alt=""></a>
+                            </div>
+                           </button>
+                              <div class="checkout" id="check">
+                                <div class="checkout-text">
+                                  <p id="check-para">Cart</p>
+                                  <div id="empty"><p id="empty-para">Your cart is empty</p></div>
+                                    <div class="checkout-img">
+                                      <div class="checkout-image">
+                                        <img src="images/image-product-1.jpg" alt="">
+                                      </div>
+                                      <p id="check-para2">Fall Limitited Edition Sneakers </p>
+                                    </div>
+                                    <div class="text-2">
+                                      <p id="price">$125.00 x <span id="shoes"></span></p>
+                                     <p id="total"></p>
+                                     <div class="delete"><a href="" id="del"><img src="images/icon-delete.svg" alt=""></a> 
+                                    </div>
+                                    </div>
+                                    <button id="checkout-button">Checkout</button>
+                                </div>
+                              </div>
+                              <div class="avatar">
+                                  <img src="images/image-avatar.png" alt="">
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="border"></div>
+
+            </div>
+        </header>
+        
+        <div class="leftside-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">              
+                        <div class="mySlides">
+                          <img src="images/image-product-1.jpg" style="width:100%">
+                        </div>
+                      
+                        <div class="mySlides">
+                          <img src="images/image-product-2.jpg" style="width:100%">
+                        </div>
+                      
+                        <div class="mySlides">
+                          <img src="images/image-product-3.jpg" style="width:100%">
+                        </div>
+                          
+                        <div class="mySlides">
+                          <img src="images/image-product-4.jpg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                      
+                            <div class="row">
+                              <div class="column">
+                                <img class="demo cursor" src="images/image-product-1-thumbnail.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+                              </div>
+                              <div class="column">
+                                <img class="demo cursor" src="images/image-product-2-thumbnail.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+                              </div>
+                              <div class="column">
+                                <img class="demo cursor" src="images/image-product-3-thumbnail.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+                              </div>
+                              <div class="column">
+                                <img class="demo cursor" src="images/image-product-4-thumbnail.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+                              </div>
+                              
+                            </div>           
+                        </div>
+                        <div class="col-6">
+                            <div class="content">
+                                <h3 id="sneaker">SNEAKER COMPANY</h3>
+                                <h2>Fall Limitited Sneakers</h2>
+                                <p>These low-profile sneakers are your perfect casual wear companion.Featuring durable 
+                                    rubber outer sole,they'll withstand everything the weather can offer.
+                                </p>
+                                <div class="price">
+                                    <h3>$125.00</h3>
+                                    <p id="percent">50%</p>
+                                    <del id="mobile-price">$250.00</del>
+                                </div>
+                                <del id="desk-price">$250.00</del>
+                                <div class="addtocart">
+                                    <div class="add">
+                                      <a href="" id="minus"><img src="images/icon-minus.svg" alt=""></a>
+                                      <p id="quantity-para">0</p>
+                                      <a href="" id="plus"><img src="images/icon-plus.svg" alt=""></a>
+                                    </div>
+                                    <button id="cart-2"> <a href=""><img src="images/icon-cart.svg" alt="">Add to cart</a></button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="slider.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
