@@ -28,17 +28,6 @@ This frontend design was created with great efforts drawing inspiration from Boo
 ## License
 The "sneakers-landingpage" repository is open-source and licensed under the GNU License. You are free to use, modify, and distribute the code as per the terms of the license.
 
-![Landing page](website-images/webvisual1.png)
-![Landing page](website-images/webvisual2.png)
-![Landing page](website-images/webvisual3.png)
-![Landing page](website-images/webvisual4.png)
-![Landing page](website-images/webvisual5.png)
-![Landing page](website-images/webvisual6.png)
-![Landing page](website-images/webvisual7.png)
-![Landing page](website-images/webvisual8.png)
-![Landing page](website-images/mobvisual1.png)
-![Landing page](website-images/mobvisual2.png)
-![Landing page](website-images/mobvisual3.png)
-![Landing page](website-images/mobvisual4.png)
-![Landing page](website-images/mobvisual5.png)
-![Landing page](website-images/mobvisual6.png)![Landing page](website-images/mobvisual7.png)![Landing page](website-images/mobvisual8.png)
+![Landing page](webvisual1.png)
+![Landing page](webvisual2.png)
+![Landing page](webvisual3.png)
